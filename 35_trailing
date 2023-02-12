@@ -31,7 +31,7 @@ scanf("%c",&c);
 }
 void follow(char c)
 {
- if(a[0][0]==c)f[m++]='e';
+ if(a[0][0]==c)f[m++]='$';
  for(i=0;i<n;i++)
  {
   for(j=2;j<strlen(a[i]);j++)
